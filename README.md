@@ -34,3 +34,7 @@ After you create your api key paste it into the starter files.
 - Store information between sessions
 - Sentiment analysis
 
+## Other example models to load:
+- openai-community/gpt2
+- mistralai/Mistral-Nemo-Instruct-2407
+- HuggingFaceH4/zephyr-7b-beta
