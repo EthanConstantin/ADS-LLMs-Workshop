@@ -19,17 +19,17 @@ Name your token whatever you like, and select the Write option at the top. Then 
 After you create your api key paste it into the starter files.
 
 
-# Ideas to enhance the chatbot:
-Easy
+## Ideas to enhance the chatbot:
+### Easy
 - Give the ai a personality (Hint: Give the ai a prompt before starting to the conversation)
 - Make Command based responses. (help, about, clear history)
 - Show the user that the model is "typing" while it loads
 
-Intermediate
+### Intermediate
 - Track conversation length. Maybe limiting conversation history improves responses?
 - Collect the user's personal information
 
-Advanced
+### Advanced
 - Integrate external apis to give the ai specialized knowledge
 - Store information between sessions
 - Sentiment analysis
