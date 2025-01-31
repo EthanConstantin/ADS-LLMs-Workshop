@@ -1,7 +1,7 @@
 from huggingface_hub import login, HfApi
 
 # Paste API key
-api_key = "PASTE_API_KEY_HERE"
+api_key = "" #API key goes here
 
 # Log in
 login(token=api_key)
