@@ -2,7 +2,7 @@ import requests
 
 MODEL = "mistralai/Mixtral-8x7B-Instruct-v0.1"  # Name of the model we will be using
 API_URL = f"https://api-inference.huggingface.co/models/{MODEL}"
-HEADERS = {"Authorization": "Bearer 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"}  # Replace my Api Key with yours
+HEADERS = {"Authorization": "Bearer PASTE_API_KEY_HERE"}  # Paste your api key here
 
 """Function to get a response from the api"""
 def query(payload):
@@ -10,7 +10,6 @@ def query(payload):
     return response.json()
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Step 3: Add Conversation history and model parameters
 
 # Initialize conversation history
 conversation_history = ""
@@ -49,7 +48,7 @@ while True:
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Step 4: Enhancing the chatbot
+# Enhancing the chatbot
 
 # Easy
 # - Give the ai a personality (Hint: Give the ai a prompt before starting to the conversation)
